@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sal's Barber Shop - Professional barbershop in Seattle, WA. Classic cuts, modern style. Call (206) 860-7257 to book your appointment." />
+  <meta name="keywords" content="barber, barbershop, haircut, Seattle, WA, Sal's Barber Shop, men's haircut, fade, beard trim" />
+  <meta property="og:title" content="Sal's Barber Shop - Seattle, WA" />
+  <meta property="og:description" content="Professional barbershop in Seattle. Classic cuts, modern style." />
+  <meta property="og:type" content="website" />
+  <title>Sal's Barber Shop | Seattle, WA</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✂️</text></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="nav-logo" aria-label="Sal's Barber Shop Home">
+        <span class="logo-icon">✂</span>
+        <span class="logo-text">Sal's Barber Shop</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#barbers" class="nav-link">Barbers</a></li>
+        <li><a href="#hours" class="nav-link">Hours</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="tel:+12068607257" class="nav-cta">Call Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home" aria-label="Hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="hero-eyebrow">Welcome to</p>
+        <h1 class="hero-title">Sal's Barber Shop</h1>
+        <p class="hero-tagline">Classic Cuts. Modern Style. Seattle's Finest.</p>
+        <p class="hero-location">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Seattle, WA
+        </p>
+        <div class="hero-actions">
+          <a href="tel:+12068607257" class="btn btn-primary">
+            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.1 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Now
+          </a>
+          <a href="#services" class="btn btn-secondary">View Services</a>
+        </div>
+      </div>
+      <a href="#services" class="hero-scroll" aria-label="Scroll to services">
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </a>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">What We Offer</p>
+          <h2 id="services-heading" class="section-title">Our Services</h2>
+          <p class="section-subtitle">Expert cuts and grooming from Seattle's most skilled barbers</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+            </div>
+            <h3 class="service-name">Classic Haircut</h3>
+            <p class="service-desc">Precision cuts tailored to your style. Includes consultation, shampoo, cut, and styling.</p>
+            <span class="service-price">From $30</span>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+            </div>
+            <h3 class="service-name">Fade & Taper</h3>
+            <p class="service-desc">Clean, sharp fades from skin to any length. Low, mid, or high — we nail every transition.</p>
+            <span class="service-price">From $35</span>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm0 0v20M2 12h20"/></svg>
+            </div>
+            <h3 class="service-name">Beard Trim & Shape</h3>
+            <p class="service-desc">Define your beard with expert shaping, trimming, and edge work for a polished look.</p>
+            <span class="service-price">From $20</span>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="service-name">Hot Towel Shave</h3>
+            <p class="service-desc">Traditional straight-razor shave with hot towel treatment for the ultimate smooth finish.</p>
+            <span class="service-price">From $40</span>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <h3 class="service-name">Kids' Cut</h3>
+            <p class="service-desc">Patient, friendly cuts for the little ones. Making every kid look sharp and feel great.</p>
+            <span class="service-price">From $20</span>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3 class="service-name">Cut & Beard Combo</h3>
+            <p class="service-desc">Full haircut plus beard grooming in one session. The complete look, expertly executed.</p>
+            <span class="service-price">From $50</span>
+          </article>
+        </div>
+        <div class="services-cta">
+          <a href="tel:+12068607257" class="btn btn-primary">
+            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.1 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Book by Phone
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Barbers Section -->
+    <section class="barbers" id="barbers" aria-labelledby="barbers-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Meet the Team</p>
+          <h2 id="barbers-heading" class="section-title">Our Barbers</h2>
+          <p class="section-subtitle">Skilled craftsmen dedicated to making you look your best</p>
+        </div>
+        <div class="barbers-grid">
+          <article class="barber-card">
+            <div class="barber-photo-wrap">
+              <div class="barber-photo barber-photo--1" aria-label="Phil the barber"></div>
+              <div class="barber-badge">
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+              </div>
+            </div>
+            <div class="barber-info">
+              <h3 class="barber-name">Phil</h3>
+              <p class="barber-title">Master Barber</p>
+              <p class="barber-bio">Phil brings years of experience and a passion for precision to every cut. Known for his clean fades and attention to detail.</p>
+              <div class="barber-specialties">
+                <span class="specialty-tag">Classic Cuts</span>
+                <span class="specialty-tag">Fades</span>
+                <span class="specialty-tag">Hot Shave</span>
+              </div>
+            </div>
+          </article>
+          <article class="barber-card">
+            <div class="barber-photo-wrap">
+              <div class="barber-photo barber-photo--2" aria-label="Colter the barber"></div>
+              <div class="barber-badge">
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+              </div>
+            </div>
+            <div class="barber-info">
+              <h3 class="barber-name">Colter</h3>
+              <p class="barber-title">Senior Barber</p>
+              <p class="barber-bio">Colter specializes in modern styles and beard sculpting. His creative approach ensures every client leaves looking sharp.</p>
+              <div class="barber-specialties">
+                <span class="specialty-tag">Modern Styles</span>
+                <span class="specialty-tag">Beard Shaping</span>
+                <span class="specialty-tag">Tapers</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hours Section -->
+    <section class="hours" id="hours" aria-labelledby="hours-heading">
+      <div class="container hours-container">
+        <div class="hours-content">
+          <div class="section-header section-header--left">
+            <p class="section-eyebrow">When to Visit</p>
+            <h2 id="hours-heading" class="section-title">Hours of Operation</h2>
+          </div>
+          <div class="hours-table" role="table" aria-label="Business hours">
+            <div class="hours-row hours-row--closed" role="row">
+              <span class="hours-day" role="cell">Monday</span>
+              <span class="hours-time hours-closed" role="cell">Closed</span>
+            </div>
+            <div class="hours-row hours-row--closed" role="row">
+              <span class="hours-day" role="cell">Tuesday</span>
+              <span class="hours-time hours-closed" role="cell">Closed</span>
+            </div>
+            <div class="hours-row hours-row--closed" role="row">
+              <span class="hours-day" role="cell">Wednesday</span>
+              <span class="hours-time hours-closed" role="cell">Closed</span>
+            </div>
+            <div class="hours-row hours-row--closed" role="row">
+              <span class="hours-day" role="cell">Thursday</span>
+              <span class="hours-time hours-closed" role="cell">Closed</span>
+            </div>
+            <div class="hours-row hours-row--closed" role="row">
+              <span class="hours-day" role="cell">Friday</span>
+              <span class="hours-time hours-closed" role="cell">Closed</span>
+            </div>
+            <div class="hours-row hours-row--open" role="row">
+              <span class="hours-day" role="cell">Saturday</span>
+              <span class="hours-time hours-open" role="cell">10:00 AM – 5:00 PM</span>
+            </div>
+            <div class="hours-row hours-row--closed" role="row">
+              <span class="hours-day" role="cell">Sunday</span>
+              <span class="hours-time hours-closed" role="cell">Closed</span>
+            </div>
+          </div>
+          <div class="hours-note">
+            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            <span>Appointments are walk-in or by phone. Call ahead to secure your spot!</span>
+          </div>
+        </div>
+        <div class="hours-cta-box">
+          <div class="hours-cta-inner">
+            <div class="hours-cta-icon" aria-hidden="true">✂</div>
+            <h3>Ready for a Fresh Cut?</h3>
+            <p>Give us a call to check availability or walk in on Saturday.</p>
+            <a href="tel:+12068607257" class="btn btn-primary">
+              <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.1 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              (206) 860-7257
+            </a>
+            <p class="hours-cta-sub">Open Saturdays 10am – 5pm</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Get In Touch</p>
+          <h2 id="contact-heading" class="section-title">Contact Us</h2>
+          <p class="section-subtitle">We'd love to have you in the chair</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.1 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div class="contact-detail">
+                <h3>Phone</h3>
+                <a href="tel:+12068607257">(206) 860-7257</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-detail">
+                <h3>Email</h3>
+                <a href="mailto:info@sals-barbershop.com">info@sals-barbershop.com</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-detail">
+                <h3>Location</h3>
+                <address>Seattle, WA</address>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              </div>
+              <div class="contact-detail">
+                <h3>Hours</h3>
+                <span>Saturday: 10:00 AM – 5:00 PM</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-map-placeholder" aria-label="Map placeholder showing Seattle, WA location">
+            <div class="map-inner">
+              <svg aria-hidden="true" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <h3>Seattle, WA</h3>
+              <p>Call us for exact address</p>
+              <a href="tel:+12068607257" class="btn btn-primary" style="margin-top: 1rem;">
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.1 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                (206) 860-7257
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo" aria-label="Sal's Barber Shop Home">
+          <span class="logo-icon">✂</span>
+          <span class="logo-text">Sal's Barber Shop</span>
+        </a>
+        <p class="footer-tagline">Classic Cuts. Modern Style.</p>
+        <p class="footer-location">Seattle, WA</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <h4 class="footer-nav-title">Quick Links</h4>
+        <ul role="list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#barbers">Barbers</a></li>
+          <li><a href="#hours">Hours</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h4 class="footer-nav-title">Contact</h4>
+        <ul role="list">
+          <li>
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.1 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <a href="tel:+12068607257">(206) 860-7257</a>
+          </li>
+          <li>
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:info@sals-barbershop.com">info@sals-barbershop.com</a>
+          </li>
+          <li>
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <span>Sat: 10am – 5pm</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="footer-year">2024</span> Sal's Barber Shop. All rights reserved. | Seattle, WA</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
